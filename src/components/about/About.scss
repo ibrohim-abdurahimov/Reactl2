@@ -1,0 +1,32 @@
+.about{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    &__subtitle{
+        text-align: center;
+        color: #3858D6;
+    }
+    &__title{
+        margin-top: 5px;
+        margin-bottom: 55px;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1e1d1d;
+    }
+    .item{
+        padding: 30px 42px 30px 35px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 29px;
+        background-color: #F6F6F6;
+        border-radius: 22px;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+}

@@ -1,0 +1,48 @@
+.subscribe{
+    &__wrapper{
+        padding: 40px 90px;
+        background-color: #F6F6F6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title{
+        font-size: 36px;
+        font-weight: 700;
+        color: #1e1d1d;
+    }
+    &__desc{
+        margin-top: 6px;
+        color: #8B8E99;
+        font-weight: 500;
+        font-family: Inter;
+    }
+    &__inp{
+        padding: 7px 9px 8px 30px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 12px;
+        border-radius: 15px;
+        input{
+            color: #1e1d1d;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: Poppins;
+            border: none;
+            outline: none;
+        }
+        ::placeholder{
+            color: #8B8E99B2;
+        }
+        button{
+            padding: 12px 10px;
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: 600;
+            background-color: #3858D6;
+            border-radius: 9px;
+        }
+    }
+}
